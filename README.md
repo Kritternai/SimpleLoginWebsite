@@ -3,7 +3,11 @@
 <h3 align="center">
 SimpleLoginWebsite is a basic website that allows users to create accounts and log in. It utilizes HTML, CSS, and JavaScript for its functionality and design. Users can input their credentials, such as username and password, to access their accounts securely.</h3>
 
-<a href="#"><img align="center" src="https://github.com/Kritternai/SimpleLoginWebsite/raw/de4c7a87d60e104556c8e3ae4edd13d500109de8/Preview/SimpleLoginWebsite.png"  /></a>
+<a href="https://kritternai.github.io/SimpleLoginWebsite/"><img align="center" src="https://github.com/Kritternai/SimpleLoginWebsite/raw/de4c7a87d60e104556c8e3ae4edd13d500109de8/Preview/SimpleLoginWebsite.png"  /></a>
+
+<h2 align="left"><a href="https://kritternai.github.io/SimpleLoginWebsite/" target="_blank">PREVIEW CLICK HERE</a></h2>
+
+
 
 <h2 align="Left">Languages and Tools:</h2> 
 
