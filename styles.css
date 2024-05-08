@@ -1,0 +1,181 @@
+body {
+    font-family: 'Prompt', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.left-panel {
+    flex: 1;
+    background-color: #007bff;
+    color: #fff;
+    padding: 4rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.right-panel {
+    flex: 1;
+    background-color: #fff;
+    padding: 4rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+.mb-2 {
+    margin-bottom: 1rem;
+}
+
+.mb-4 {
+    margin-bottom: 2rem;
+}
+
+.mb-6 {
+    margin-bottom: 3rem;
+}
+
+.block {
+    display: block;
+}
+
+.text-zinc-700 {
+    color: #333;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.shadow {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.appearance-none {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.border {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.leading-tight {
+    line-height: 1.25;
+}
+
+.focus\:outline-none:focus {
+    outline: 0;
+}
+
+.focus\:shadow-outline:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.hover\:bg-blue-700:hover {
+    background-color: #0056b3;
+}
+
+.text-blue-500 {
+    color: #007bff;
+}
+
+.hover\:text-blue-800:hover {
+    color: #0056b3;
+}
+
+@keyframes btnPulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.btn-clicked {
+    animation: btnPulse 0.5s ease-in-out;
+}
+
+/* Add this CSS for parallax effect */
+.left-panel, .right-panel {
+    transition: transform 0.3s ease;
+}
+
+.btn-signup {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-signup:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+}
